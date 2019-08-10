@@ -1,13 +1,13 @@
 ---
 layout: docs
-title: Introduction
+title: Introdução
 description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
-group: getting-started
+group: inicio
 redirect_from:
-  - /docs/4.1/getting-started/
-  # - /docs/
-  # - /docs/4.1/
-  # - /docs/getting-started/
+  - /docs/
+  - /docs/4.1/
+  - /docs/4.1/inicio/
+  - /docs/inicio/
 toc: true
 ---
 
