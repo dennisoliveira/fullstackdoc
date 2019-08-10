@@ -4,7 +4,7 @@ _site
 site/docs/4.1/dist/
 
 #Ignore dist folder
-dist
+dist/*
 
 # Ignore ruby files
 .ruby-version
