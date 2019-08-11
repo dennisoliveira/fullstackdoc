@@ -9,10 +9,6 @@ redirect_from:
 toc: true
 ---
 
-## Quick start
-
-Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? [Head to the downloads page.]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/)
-
 ### CSS
 
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
@@ -34,8 +30,6 @@ We use [jQuery's slim build](https://blog.jquery.com/2016/06/09/jquery-3-0-final
 {% endhighlight %}
 
 Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you're at all unsure about the general page structure, keep reading for an example page template.
-
-Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https://popper.js.org/), but not [jQuery](https://jquery.com/). For more information about what's included in Bootstrap, please see our [contents]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/contents/#precompiled-bootstrap) section.
 
 <details>
 <summary class="text-primary mb-3">Show components requiring JavaScript</summary>
@@ -82,7 +76,6 @@ Be sure to have your pages set up with the latest design and development standar
 </html>
 {% endhighlight %}
 
-That's all you need for overall page requirements. Visit the [Layout docs]({{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/) or [our official examples]({{ site.baseurl }}/docs/{{ site.docs_version }}/examples/) to start laying out your site's content and components.
 
 ## Important globals
 
@@ -124,10 +117,6 @@ On the rare occasion you need to override it, use something like the following:
 With the above snippet, nested elements—including generated content via `::before` and `::after`—will all inherit the specified `box-sizing` for that `.selector-for-some-widget`.
 
 Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box-sizing/).
-
-### Reboot
-
-For improved cross-browser rendering, we use [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/reboot/) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
 
 ## Community
 
