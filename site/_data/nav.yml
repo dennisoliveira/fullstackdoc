@@ -1,45 +1,68 @@
-- title: Inicio
+- title: inicio
   name: Início
   index: introducao
   pages:
     - page:
         slug: introducao
         name: Introdução
-    # - page:
-    #     slug: download
-    #     name: Download
 
-- title: Getting started
-  name: Getting started
-  index: introduction
+- title: arquitetura-web
+  name: Arquiterura Web
+  index: arquitetura-web
   pages:
     - page:
-        slug: introduction
-        name: Introduction
-    - page: 
-        slug: Download
-        name: Download
-    - page: 
-        slug: Contents
-        name: Contents
-    - page: 
-        slug: Browsers & devices
-        name: Browsers & devices
-    - page: 
-        slug: JavaScript
-        name: JavaScript
-    - page: 
-        slug: Theming
-        name: Theming
-    - page: 
-        slug: Build tools
-        name: Build tools
-    - page: 
-        slug: Webpack
-        name: Webpack
-    - page: 
-        slug: Accessibility
-        name: Accessibility
+        slug: arquitetura-web
+        name: Introdução
+    - page:
+        slug: cliente-servidor
+        name: Modelo Cliente Servidor
+    - page:
+        slug: cliente-servidor
+        name: Servidor DNS
+    - page:
+        slug: cliente-servidor
+        name: Servidor Web (HTTP)
+    - page:
+        slug: cliente-servidor
+        name: Protocolo HTTP
+    - page:
+        slug: cliente-servidor
+        name: Servidor SSH
+    - page:
+        slug: cliente-servidor
+        name: Servidor FTP
+
+# - title: Getting started
+#   name: Getting started
+#   index: introduction
+#   pages:
+#     - page:
+#         slug: introduction
+#         name: Introduction
+#     - page: 
+#         slug: Download
+#         name: Download
+#     - page: 
+#         slug: Contents
+#         name: Contents
+#     - page: 
+#         slug: Browsers & devices
+#         name: Browsers & devices
+#     - page: 
+#         slug: JavaScript
+#         name: JavaScript
+#     - page: 
+#         slug: Theming
+#         name: Theming
+#     - page: 
+#         slug: Build tools
+#         name: Build tools
+#     - page: 
+#         slug: Webpack
+#         name: Webpack
+#     - page: 
+#         slug: Accessibility
+#         name: Accessibility
 
 # - title: Getting started
 #   pages:

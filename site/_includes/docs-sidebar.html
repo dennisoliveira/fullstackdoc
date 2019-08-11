@@ -21,7 +21,7 @@
 
   <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
       
-      <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{{ group.index }}/">
+      <a class="bd-toc-link" href="{{ site.baseurl }}/docs/topics/{{ group_slug }}/{{ link_slug }}{{ group.index }}/">
         {{ group.name }}
       </a>
 
@@ -35,7 +35,7 @@
           {%- endif -%}
 
           <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
-            <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/">
+            <a href="{{ site.baseurl }}/docs/topics/{{ group_slug }}/{{ doc_slug }}/">
               {{ doc.page.name }}
             </a>
 
