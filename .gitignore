@@ -3,6 +3,9 @@ _gh_pages
 _site
 site/docs/4.1/dist/
 
+#Ignore dist folder
+dist/*
+
 # Ignore ruby files
 .ruby-version
 .bundle
