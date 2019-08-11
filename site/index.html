@@ -13,21 +13,34 @@ layout: home
         <p class="lead">
           Documentação de tópicos de estudo baseado na documentação do bootstrap 4.1.
         </p>
+        
+        {% comment %}
         <!-- <p class="lead mb-4">
           Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
         </p> -->
+        {% endcomment %}
+
         <div class="d-flex flex-column flex-md-row lead mb-3">
           <a href="{{ site.baseurl }}/docs/inicio/introducao/" class="btn btn-lg btn-bd-primary mb-3 mb-md-0 mr-md-3">Iniciar</a>
-          <!-- <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download</a> -->
+
+          {% comment %}
+          <!-- <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary">Download</a> -->
+          {% endcomment %}
+
         </div>
+
+        {% comment %}
         <!-- <p class="text-muted mb-0">
           Currently v{{ site.current_version }}
         </p> -->
+        {% endcomment %}
+
       </div>
     </div>
   </div>
 </main>
 
+{% comment %}
 <!-- <div class="masthead-followup row m-0 border border-white">
   <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
     Icon by Bytesize https://github.com/danklammer/bytesize-icons
@@ -80,3 +93,4 @@ gem install bootstrap -v {{ site.current_ruby_version }}
     <a href="{{ site.themes }}" class="btn btn-outline-primary">Browse themes</a>
   </div>
 </div> -->
+{% endcomment %}

@@ -1,9 +1,11 @@
+{%- comment -%}
 <!-- <form class="bd-search d-flex align-items-center">
   <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" data-siteurl="{{ site.url }}" data-docs-version="{{ site.docs_version }}">
   <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
     {%- include icons/menu.svg width="30" height="30" -%}
   </button>
 </form> -->
+{%- endcomment -%}
 
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_slug = page.url | split: '/' | last -%}
@@ -37,8 +39,8 @@
               {{ doc.page.name }}
             </a>
 
-            <!-- {%- comment -%}
-            {% unless doc.sections == nil %}
+            {%- comment -%}
+            <!-- {% unless doc.sections == nil %}
               <ul class="nav">
                 {% for section in doc.sections %}
                   <li>
@@ -48,8 +50,8 @@
                   </li>
                 {% endfor %}
               </ul>
-            {% endunless %}
-            {%- endcomment -%} -->
+            {% endunless %} -->
+            {%- endcomment -%}
             
           </li>
         {%- endfor -%}
