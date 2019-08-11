@@ -15,22 +15,89 @@
         name: Introdução
     - page:
         slug: cliente-servidor
+        name: Fundamentos de redes
+    - page:
+        slug: cliente-servidor
         name: Modelo Cliente Servidor
+    - page:
+        slug: cliente-servidor
+        name: Request e Response
     - page:
         slug: cliente-servidor
         name: Servidor DNS
     - page:
         slug: cliente-servidor
-        name: Servidor Web (HTTP)
+        name: Servidores Web (HTTP)
     - page:
         slug: cliente-servidor
         name: Protocolo HTTP
     - page:
         slug: cliente-servidor
-        name: Servidor SSH
+        name: Servidor SSH (SFTP)
     - page:
         slug: cliente-servidor
         name: Servidor FTP
+    - page:
+        slug: cliente-servidor
+        name: Servidor de Banco de Dados
+    - page:
+        slug: cliente-servidor
+        name: Terminologias
+
+- title: habilidades-gerais
+  name: Habilidades gerais
+  index: habilidades-gerais
+  pages:
+    - page:
+        slug: habilidades-gerais
+        name: Introdução
+    - page:
+        slug: habilidades-gerais
+        name: Aprender a pesquisar
+    - page:
+        slug: habilidades-gerais
+        name: HTTP, HTTPS e HTTP/2
+    - page:
+        slug: habilidades-gerais
+        name: Estruturas de dados e algoritmos
+    - page:
+        slug: habilidades-gerais
+        name: Terminal e shell script
+    - page:
+        slug: habilidades-gerais
+        name: Controle de versão
+    - page:
+        slug: habilidades-gerais
+        name: GitHub
+    - page:
+        slug: habilidades-gerais
+        name: Terminologias
+
+- title: infraestrutura
+  name: Infraestrutura e Operação
+  index: infraestrutura
+  pages:
+    - page:
+        slug: infraestrutura
+        name: Introdução
+    - page:
+        slug: infraestrutura
+        name: Administração de domínios e hospedagens
+    - page:
+        slug: infraestrutura
+        name: Editores de texto CLI Vim e Nano
+    - page:
+        slug: infraestrutura
+        name: Instalar e configurar servidores
+    - page:
+        slug: infraestrutura
+        name: Introdução à páginas dinâmicas com CGI
+    - page:
+        slug: infraestrutura
+        name: Leitura de Logs
+    - page:
+        slug: infraestrutura
+        name: Resolver dependências
 
 # - title: Getting started
 #   name: Getting started
