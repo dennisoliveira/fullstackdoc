@@ -1,5 +1,6 @@
 - title: Inicio
   name: Início
+  index: introducao
   pages:
     - page:
         slug: introducao
@@ -8,36 +9,37 @@
     #     slug: download
     #     name: Download
 
-# - title: Getting started
-#   name: Getting started name
-#   pages:
-#     - page:
-#         slug: Introduction
-#         name: Introduction
-#     - page: 
-#         slug: Download
-#         name: Download
-#     - page: 
-#         slug: Contents
-#         name: Contents
-#     - page: 
-#         slug: Browsers & devices
-#         name: Browsers & devices
-#     - page: 
-#         slug: JavaScript
-#         name: JavaScript
-#     - page: 
-#         slug: Theming
-#         name: Theming
-#     - page: 
-#         slug: Build tools
-#         name: Build tools
-#     - page: 
-#         slug: Webpack
-#         name: Webpack
-#     - page: 
-#         slug: Accessibility
-#         name: Accessibility
+- title: Getting started
+  name: Getting started
+  index: introduction
+  pages:
+    - page:
+        slug: introduction
+        name: Introduction
+    - page: 
+        slug: Download
+        name: Download
+    - page: 
+        slug: Contents
+        name: Contents
+    - page: 
+        slug: Browsers & devices
+        name: Browsers & devices
+    - page: 
+        slug: JavaScript
+        name: JavaScript
+    - page: 
+        slug: Theming
+        name: Theming
+    - page: 
+        slug: Build tools
+        name: Build tools
+    - page: 
+        slug: Webpack
+        name: Webpack
+    - page: 
+        slug: Accessibility
+        name: Accessibility
 
 # - title: Getting started
 #   pages:
